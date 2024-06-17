@@ -1,6 +1,6 @@
 const http = require("http");
 require("dotenv").config();
-const app = require("/Users/bailybates/Server_Side_Languages/Server-Side-Languages/server.js");
+const app = require("./app");
 
 const server = http.createServer(app);
 
